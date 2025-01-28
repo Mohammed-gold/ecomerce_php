@@ -7,7 +7,7 @@ $date=date("Y-m-d H:i:s");
 
 
 
-$stmt=$con->prepare("SELECT * FROM Copon Where Copon_name ='$cobonN' AND cobon_date > $$date");
+$stmt=$con->prepare("SELECT * FROM Copon Where Copon_name ='$cobonN' AND 'cobon_date' > '$date'");
 
 $stmt->execute();
 
