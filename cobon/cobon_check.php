@@ -26,4 +26,3 @@ if(
     echo json_encode(array("status" => "failure"));
 
 }
-// getAllData("cobon","cobon_name='$cobonN' AND 'cobon_date' > '$date'");
