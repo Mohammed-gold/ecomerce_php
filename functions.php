@@ -11,7 +11,7 @@ function filterRequest($requestname)
   return  htmlspecialchars(strip_tags($_POST[$requestname]));
 }
 
-function getAllData($table, $where = null ,$value=null,$json=true)
+function getAllData($table, $where = null ,$json=true)
 {
     global $con;
     $data = array();
